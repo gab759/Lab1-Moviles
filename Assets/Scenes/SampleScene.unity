@@ -495,11 +495,16 @@ MonoBehaviour:
   - {fileID: 7209108103277424669, guid: 3266a337bb4767148928b9dffa91359b, type: 3}
   - {fileID: 1502433025826113972, guid: 746adb9777452d540bfc53128c34a0da, type: 3}
   - {fileID: 4220086258726190990, guid: 8392c600098b0f94db56c09dea9fc08a, type: 3}
-  colors:
-  - {r: 1, g: 0, b: 0.03344059, a: 0}
-  - {r: 0, g: 0.11641312, b: 1, a: 0}
-  - {r: 0.91676354, g: 1, b: 0, a: 0}
-  - {r: 0, g: 0, b: 0, a: 0}
+  colorButtons:
+  - {fileID: 65905932}
+  - {fileID: 2143657714}
+  - {fileID: 1686649331}
+  - {fileID: 187839261}
+  spriteButtons:
+  - {fileID: 2012881638}
+  - {fileID: 24450947}
+  - {fileID: 1868446359}
+  - {fileID: 1019154926}
 --- !u!4 &123136387
 Transform:
   m_ObjectHideFlags: 0

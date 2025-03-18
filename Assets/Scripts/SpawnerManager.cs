@@ -5,9 +5,9 @@ using UnityEngine.UI;
 
 public class SpawnerManager : MonoBehaviour
 {
-    public GameObject[] prefabs = new GameObject[4];     // 4 prefabs
-    public Button[] colorButtons = new Button[4];        // 4 botones de color
-    public Button[] spriteButtons = new Button[4];       // 4 botones para elegir sprite
+    public GameObject[] prefabs = new GameObject[4];
+    public Button[] colorButtons = new Button[4];
+    public Button[] spriteButtons = new Button[4];
 
     private Color currentColor = Color.white;
     private int currentPrefabIndex = 0;
@@ -18,7 +18,6 @@ public class SpawnerManager : MonoBehaviour
 
     void Start()
     {
-        // Asignar listeners a cada botón de color
         for (int i = 0; i < colorButtons.Length; i++)
         {
             int index = i;
@@ -28,7 +27,6 @@ public class SpawnerManager : MonoBehaviour
             });
         }
 
-        // Asignar listeners a cada botón de sprite
         for (int i = 0; i < spriteButtons.Length; i++)
         {
             int index = i;
